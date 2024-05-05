@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?&family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+:root {
+    --Very_Dark_Grayish_Blue: hsl(217, 19%, 35%);
+    --Desaturated_Dark_Blue: hsl(214, 17%, 51%);
+    --Grayish_Blue: hsl(212, 23%, 69%);
+    --Light_Grayish_Blue: hsl(210, 46%, 95%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light_Grayish_Blue);
+    /* background-color: var(--Desaturated_Dark_Blue); */
+    ;
+}
+
+main {
+    margin: 50px;
+}
+
+.container {
+    background-color: #fff;
+    /* width: 600px; */
+    width: 90vw;
+    border-radius: 12px;
+    /* border: 2px solid red; */
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#drawers {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.data {
+    color: var(--Very_Dark_Grayish_Blue);
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.data p {
+    font-size: 18px;
+    color: var(--Desaturated_Dark_Blue);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info {
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#author {
+    border-radius: 50%;
+}
+
+.personal-data {
+    line-height: 1.;
+}
+
+#share {
+    border-radius: 50%;
+    padding: 18px;
+    border: none;
+}
+
+#share-options {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    /* display: none; */
+    padding: 25px 35px;
+    color: var(--Grayish_Blue);
+    background-color: var(--Very_Dark_Grayish_Blue);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+.options p {
+    letter-spacing: 10px;
+    /* word-spacing: 20px; */
+}
+
+#share-btn {
+    background-color: var(--Light_Grayish_Blue);
+    padding: 12px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
