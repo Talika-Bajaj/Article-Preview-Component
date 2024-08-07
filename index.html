@@ -9,56 +9,52 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
-  <title>Frontend Mentor | Article preview component</title>
+  <title>Article preview component</title>
 </head>
 
 <body>
   <main>
-    <div class="container">
-      <div class="card">
+    <div class="card">
+      <img src="images/drawers.jpg" id="drawers" alt="">
 
-        <img src="images/drawers.jpg" id="drawers" alt="">
+      <div class="show-data">
+        <div class="data">
+          <h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+          <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.
+            I’ve
+            got some simple tips to help you make any room feel complete.</p>
+        </div>
 
-        <div class="show-data">
-
-          <div class="data">
-            <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
-            <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.
-              I’ve
-              got some simple tips to help you make any room feel complete.</p>
-            <div class="info">
-              <div class="author-info">
-
-                <div class="author-img">
-                  <img src="images/avatar-michelle.jpg" id="author" height="70" alt="">
-                </div>
-                <div class="personal-data">
-                  <h3>Michelle Appleton</h3>
-                  <p>28 Jun 2020</p>
-                </div>
-
-              </div>
-              <button id="share" class="share">
-                <img src="images/icon-share.svg" height="25" alt="" srcset="">
-              </button>
+        <div class="info">
+          <div class="author-info">
+            <div class="author-img">
+              <img src="images/avatar-michelle.jpg" id="author" alt="">
             </div>
+
+            <div class="personal-data">
+              <p class="name">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+
           </div>
+
           <div id="share-options">
             <div class="options">
-
               <p>SHARE</p>
-              <!-- <P>SHARE</P> -->
               <img src="images/icon-facebook.svg" height="25">
               <img src="images/icon-twitter.svg" alt="" height="25">
               <img src="images/icon-pinterest.svg" alt="" height="25">
             </div>
-            <button id="share-btn" class="share">
-              <img src="images/icon-share.svg" height="20" alt="">
-            </button>
           </div>
+
+          <button id="share">
+            <img src="images/icon-share.svg" id="share-img" alt="" srcset="">
+          </button>
         </div>
 
       </div>
+
+    </div>
   </main>
 
   <script src="index.js"></script>
